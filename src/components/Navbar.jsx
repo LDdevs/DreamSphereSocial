@@ -13,14 +13,13 @@ import Search_b from '../assets/search-b.png';
 
 // import { SlLogin } from "react-icons/sl";
 
-// import { Transition } from "@headlessui/react";
-// import { MenuIcon, XIcon } from "@heroicons/react/outline";
+
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
-    // const [isOpen, setIsOpen] = useState(false);
+    
 
     return (
 
@@ -58,36 +57,8 @@ const Navbar = () => {
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
 
-                {/* <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
-                    <div className="flex items-center flex-shrink-0 text-white mr-6">
-                        <span className="font-semibold text-xl tracking-tight">Burger Menu</span>
-                    </div>
-                    <div className="block lg:hidden">
-                        <button
-                            onClick={() => setIsOpen(!isOpen)}
-                            className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-                        >
-                            {isOpen ? (
-                                <XIcon className="h-6 w-6" aria-hidden="true" />
-                            ) : (
-                                <MenuIcon className="h-6 w-6" aria-hidden="true" />
-                            )}
-                        </button>
-                    </div>
-                    <Transition
-                        show={isOpen}
-                        enter="transition duration-200 ease-out"
-                        enterFrom="opacity-0 scale-95"
-                        enterTo="opacity-100 scale-100"
-                        leave="transition duration-200 ease-in"
-                        leaveFrom="opacity-100 scale-100"
-                        leaveTo="opacity-0 scale-95"
-                    >
-                        {(ref) => (
-                            <div
-                                ref={ref}
-                                className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
-                            >
+                
+                            
                                 <div className="text-sm lg:flex-grow">
                                     <a
                                         href="#responsive-header"
@@ -108,10 +79,7 @@ const Navbar = () => {
                                         Link 3
                                     </a>
                                 </div>
-                            </div>
-                        )}
-                    </Transition>
-                </nav> */}
+                           
 
             </div>
         </div>
