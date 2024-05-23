@@ -57,34 +57,34 @@ const Navbar = () => {
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
     
-                    <div className="text-sm lg:flex-grow">
+                    <div className="text-sm lg:flex-grow mr-10">
                         <a
                             href="#responsive-header"
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4"
+                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Home
                         </a>
                         <a
                             href="#responsive-header"
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4"
+                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Featured
                         </a>
                         <a
                             href="#responsive-header"
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4"
+                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Dashboard
                         </a>
                         <a
                             href="#responsive-header"
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4"
+                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Contact
                         </a>
                         <a
                             href="#responsive-header"
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4"
+                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Login/Signup
                         </a>
