@@ -21,11 +21,11 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     return (
 
-        <div className=' '>
+        <div className=' w-full h-[100px]  items-center p-[20px]  text-gray-300 z-1000'>
 
 
             {/* <!-- Toggle button --> */}
-            <div className='text-white flex justify-center  mx-[160px] z-10'>
+            <div className='text-white flex justify-center  mx-[160px]'>
                 <div className="hidden md:flex cursor-pointer">
                     <div>
                         <img src={Logo} alt="Logo Image" className='w-[145px]'  />
