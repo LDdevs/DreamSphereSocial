@@ -17,8 +17,8 @@ const Footer = () => {
 
                     <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] hover:text-blue-700' to='/'>Home</Link>
                     <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] ' to='/Featured'>Featured</Link>
-                    <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] ' to='/dashboard'>Dashboard</Link>
-                    <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] ' to='/contact'>Contact</Link>
+                    <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] ' to='/Dashboard'>Dashboard</Link>
+                    <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] ' to='/Contact'>Contact</Link>
                     {/* <Link id='Link' className='py-[1px]  text-center text-lg text-white inline-block mx-[120px] my-[0px]' to='/Login'>Login</Link>
                     <Link id='Link' className='py-[1px]  text-center text-lg text-white inline-block mx-[120px] w-[20px] my-[10px]' to='/Sign up'>Sign Up</Link> */}
                 </div>
