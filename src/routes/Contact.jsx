@@ -15,8 +15,6 @@ import Search_b from '../assets/search-b.png';
 
 // import { SlLogin } from "react-icons/sl";
 
-import Navbar from '../components/Navbar';
-
 const Contact = () => {
     return (
         <div>
