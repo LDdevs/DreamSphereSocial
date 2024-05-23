@@ -20,9 +20,7 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
-
-    const Nav = () => {
-        const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
 
@@ -122,7 +120,7 @@ const Navbar = () => {
 
 
     )
-}}
+}
 
 export default Navbar
 

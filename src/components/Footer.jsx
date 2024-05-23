@@ -1,8 +1,8 @@
 
 import Logo_white_alt from '../assets/logo-alt.png';
 // import BG from '../assets/footerbg.png';
-import { Link } from 'react-router-dom';
-import Search_b from '../assets/search-b.png';
+// import { Link } from 'react-router-dom';
+// import Search_b from '../assets/search-b.png';
 
 const Footer = () => {
     return (
