@@ -21,6 +21,7 @@
 
 #hero {
   background-image: url("./assets/boat.png");
+  background: transparent;
   
 }
 #hero-header {
