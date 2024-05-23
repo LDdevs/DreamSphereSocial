@@ -25,7 +25,7 @@ const Navbar = () => {
 
 
             {/* <!-- Toggle button --> */}
-            <div className=' justify-center  mx-[160px]'>
+            <div className='text-white flex justify-center h-full mx-[160px]'>
                 <div className="hidden md:flex cursor-pointer">
                     <div>
                         <img src={Logo} alt="Logo Image" className='w-[145px]'  />
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <img src={Search_b} alt="" id='search-icon' className='z-10 w-5 cursor-pointer mr-8 text-black' />
                     </div>
                     <Link id='Link' className='p-4 text-center text-lg text-black flex-4 mx-[10px] my-[20px] hover:text-[rgb(2,0,36);]' to='/Login'>Login</Link>
-                    <Link id='Link' className='p-4 text-center text-lg text-black flex-4 mx-[10px] my-[20px] hover:text-[rgb(2,0,36);]' to='/Signup'>Sign Up</Link>
+                    <Link id='Link' className='p-4 text-center text-lg text-black flex-4 mx-[10px] my-[20px] hover:text-[rgb(2,0,36);]' to='/src/routes/Signup.jsx'>Sign Up</Link>
                 </div>
 
                 <button className="show-nav text-3xl cursor-pointer">
