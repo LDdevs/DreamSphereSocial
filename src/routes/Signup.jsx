@@ -16,7 +16,7 @@ import Search_b from '../assets/search-b.png';
 // import { SlLogin } from "react-icons/sl";
 
 
-const Login = () => {
+const Signup = () => {
     return (
         <div>
             <Navbar />
@@ -43,4 +43,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Signup
