@@ -25,7 +25,7 @@ const Navbar = () => {
 
 
             {/* <!-- Toggle button --> */}
-            <div className='text-white flex justify-center  mx-[160px]'>
+            <div className=' justify-center  mx-[160px]'>
                 <div className="hidden md:flex cursor-pointer">
                     <div>
                         <img src={Logo} alt="Logo Image" className='w-[145px]'  />
