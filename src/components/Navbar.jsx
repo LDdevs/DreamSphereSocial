@@ -37,7 +37,7 @@ const Navbar = () => {
                     <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
                     {/* <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/404.html'>404</Link> */}
 
-                    <div id='search-box' className='flex bg-white px-[1px] py-[2px] rounded-full'>
+                    <div id='search-box' className='flex bg-green-300 px-[1px] py-[2px] rounded-full'>
                         <input id='search-box-input' type="text" placeholder='Search' className='p-1 bg-transparent outline-none text-lg max-w-64 text-[rgb(2,0,36);]' />
                         <img src={Search_b} alt="" id='search-icon' className='z-10 w-5 cursor-pointer mr-8 text-black' />
                     </div>
