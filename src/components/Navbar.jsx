@@ -13,12 +13,17 @@ import Search_b from '../assets/search-b.png';
 
 // import { SlLogin } from "react-icons/sl";
 
-
+import { Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+
+    const Nav = () => {
+        const [isOpen, setIsOpen] = useState(false);
+
     return (
 
         <div className=' w-full h-[100px]  items-center p-[20px]  text-gray-300 z-1000'>
@@ -117,7 +122,7 @@ const Navbar = () => {
 
 
     )
-}
+}}
 
 export default Navbar
 
