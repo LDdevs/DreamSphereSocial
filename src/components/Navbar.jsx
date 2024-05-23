@@ -17,9 +17,9 @@ import Search_b from '../assets/search-b.png';
 
 const Navbar = () => {
 
-    const [nav, setNav] = useState(false)
-    const handleClick = () => setNav(!nav)
-    
+    const [nav] = useState(false)
+    // const handleClick = () => setNav(!nav)
+    const [showMenu, setShowMenu] = useState(false)
 
     return (
 
@@ -53,10 +53,11 @@ const Navbar = () => {
 
 
                 {/* Hamburger */}
-                <div onClick={handleClick} className='flex justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
+                
+                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='flex justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
-    
+                    {showMenu && (
                     <div className='lg:hidden text-sm lg:flex-grow mr-10'>
                         <a
                             href="#responsive-header"
@@ -88,9 +89,9 @@ const Navbar = () => {
                         >
                             Login/Signup
                         </a>
-                    </div>
+                    </div>)}
                            
-
+                    
             </div>
         </div>
 
