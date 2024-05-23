@@ -32,9 +32,9 @@ const Navbar = () => {
                     </div>
                     {/* <img className="" style={{ width: '155px' }} src={Logo_white_alt} alt='' id='Logo'></img> */}
                     <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-white flex-1 mx-[10px] my-[10px]' to='/'>Home</Link>
-                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/Featured'>Featured</Link>
-                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/dashboard'>Dashboard</Link>
-                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-white flex-1 mx-[10px] my-[10px]' to='/Featured'>Featured</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-white flex-1 mx-[10px] my-[10px]' to='/dashboard'>Dashboard</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-white flex-1 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
                     {/* <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/404.html'>404</Link> */}
 
                     <div id='search-box' className='flex bg-white px-[1px] py-[2px] rounded-full'>
