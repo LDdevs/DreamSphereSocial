@@ -21,7 +21,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     return (
 
-        <div className=' w-screen h-[0px]  items-center p-[20px]  text-gray-300 z-10'>
+        <div className=' w-screen h-[1px]  items-center p-[20px]  text-gray-300 z-10'>
 
 
             {/* <!-- Toggle button --> */}
@@ -31,18 +31,18 @@ const Navbar = () => {
                         <img src={Logo} alt="Logo Image" className='w-[145px]'  />
                     </div>
                     {/* <img className="" style={{ width: '155px' }} src={Logo_white_alt} alt='' id='Logo'></img> */}
-                    <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-right text-lg text-white flex-1 mx-[10px] my-[10px]' to='/'>Home</Link>
-                    <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/Featured'>Featured</Link>
-                    <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/dashboard'>Dashboard</Link>
-                    <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-white flex-1 mx-[10px] my-[10px]' to='/'>Home</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/Featured'>Featured</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/dashboard'>Dashboard</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
                     {/* <Link id='Link' className='block lg:inline-block hover:text-green-400 mt-4   p-4 text-center text-lg text-white flex-2 mx-[10px] my-[10px]' to='/404.html'>404</Link> */}
 
                     <div id='search-box' className='flex bg-white px-[1px] py-[2px] rounded-full'>
                         <input id='search-box-input' type="text" placeholder='Search' className='p-1 bg-transparent outline-none text-lg max-w-64 text-[rgb(2,0,36);]' />
                         <img src={Search_b} alt="" id='search-icon' className='z-10 w-5 cursor-pointer mr-8 text-black' />
                     </div>
-                    <Link id='Link' className='p-4 text-center text-lg text-white flex-4 mx-[10px] my-[20px]' to='/Login'>Login</Link>
-                    <Link id='Link' className='p-4 text-center text-lg text-white flex-4 mx-[10px] my-[20px]' to='/Sign up'>Sign Up</Link>
+                    <Link id='Link' className='p-4 text-center text-lg text-white flex-4 mx-[10px] my-[20px] hover:text-[rgb(2,0,36);]' to='/Login'>Login</Link>
+                    <Link id='Link' className='p-4 text-center text-lg text-white flex-4 mx-[10px] my-[20px] hover:text-[rgb(2,0,36);]' to='/Sign up'>Sign Up</Link>
                 </div>
 
                 <button className="show-nav text-3xl cursor-pointer">
@@ -51,7 +51,7 @@ const Navbar = () => {
 
 
                 {/* Hamburger */}
-                <div onClick={handleClick} className='flex justify-end p-[20px] bg-[#0a192f] hover:text-green-400 z-10'>
+                <div onClick={handleClick} className='flex justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
 
