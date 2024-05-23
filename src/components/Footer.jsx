@@ -6,7 +6,7 @@ import Search_b from '../assets/search-b.png';
 
 const Footer = () => {
     return (
-        <div className='w-screen h-[400px] bg-[rgb(2, 0, 36)])]'>
+        <div className=' bg-[rgb(2, 0, 36)])]   w-full h-[100px]  items-center p-[20px]'>
             <div className=' bg-[rgb(2,0,36);]  h-[500px]'>
 
 
