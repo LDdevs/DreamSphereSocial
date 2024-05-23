@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height:auto;
+}
+
+#Navbar {
+  opacity: 100%;
+}
+
+#hero {
+  background-image: url("./assets/boat.png");
+  
+}
+#hero-header {
+  opacity: 100%;
+}
+
