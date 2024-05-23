@@ -21,7 +21,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     return (
 
-        <div className=' w-screen h-[1px]  items-center p-[20px]  text-gray-300 z-10'>
+        <div className=' w-screen h-[0px]  items-center p-[20px]  text-gray-300 z-10'>
 
 
             {/* <!-- Toggle button --> */}
