@@ -13,14 +13,14 @@ import Search_b from '../assets/search-b.png';
 
 // import { SlLogin } from "react-icons/sl";
 
-import { Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+// import { Transition } from "@headlessui/react";
+// import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
 
     return (
 
