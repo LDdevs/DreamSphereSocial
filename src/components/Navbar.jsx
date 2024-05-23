@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className='text-white flex justify-center h-full mx-[160px]'>
                 <div className="hidden md:flex cursor-pointer">
                     <div>
-                        <img src={Logo} alt="Logo Image" className='w-[145px]'  />
+                        <img src={Logo} alt="Logo Image" className='w-[145px]' />
                     </div>
                     {/* <img className="" style={{ width: '155px' }} src={Logo_white_alt} alt='' id='Logo'></img> */}
                     <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/'>Home</Link>
@@ -55,36 +55,60 @@ const Navbar = () => {
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
 
-                {/* <div  className='w-5 cursor-pointer mr-8 p-5 text-3xl text-white max-w-32'>
-                <SlLogin />
-                </div>
-                <img src={Toggle_day} alt="" id='toggle-icon' className='w-12 cursor-pointer ml-10'/> */}
-
-
-                {/* <a href="/" className="logo text-4xl text-blue-500 font-bold">Studio</a>
-
-                
-                    <button
-                        className="close-nav relative top-0 right-0 text-right text-3xl md:hidden"
+                <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+                    <div className="flex items-center flex-shrink-0 text-white mr-6">
+                        <span className="font-semibold text-xl tracking-tight">Burger Menu</span>
+                    </div>
+                    <div className="block lg:hidden">
+                        <button
+                            onClick={() => setIsOpen(!isOpen)}
+                            className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+                        >
+                            {isOpen ? (
+                                <XIcon className="h-6 w-6" aria-hidden="true" />
+                            ) : (
+                                <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                            )}
+                        </button>
+                    </div>
+                    <Transition
+                        show={isOpen}
+                        enter="transition duration-200 ease-out"
+                        enterFrom="opacity-0 scale-95"
+                        enterTo="opacity-100 scale-100"
+                        leave="transition duration-200 ease-in"
+                        leaveFrom="opacity-100 scale-100"
+                        leaveTo="opacity-0 scale-95"
                     >
-                        <i className="fa-solid fa-xmark"></i>
-                    </button>
-
-                    <a
-                        href="#"
-                        className="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400 text-blue-400 font-bold"
-                    >Home</a
-                    >
-                    <a href="#" className="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400"
-                    >About</a
-                    >
-                    <a href="#" className="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400"
-                    >Services</a
-                    >
-                    <a href="#" className="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400"
-                    >Contact</a
-                    > */}
-
+                        {(ref) => (
+                            <div
+                                ref={ref}
+                                className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+                            >
+                                <div className="text-sm lg:flex-grow">
+                                    <a
+                                        href="#responsive-header"
+                                        className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                                    >
+                                        Link 1
+                                    </a>
+                                    <a
+                                        href="#responsive-header"
+                                        className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+                                    >
+                                        Link 2
+                                    </a>
+                                    <a
+                                        href="#responsive-header"
+                                        className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                                    >
+                                        Link 3
+                                    </a>
+                                </div>
+                            </div>
+                        )}
+                    </Transition>
+                </nav>
 
             </div>
         </div>
