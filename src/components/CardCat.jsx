@@ -14,14 +14,14 @@ const CardCat = () => {
                 </div>
 
                 <div
-                    className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-180">
+                    className="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
                     <div className="flex h-full justify-center items-center">
                         <span className="font-bold text-green-600">Hobbies</span>
                     </div>
                 </div>
 
                 <div
-                    className="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:translate-x-4">
+                    className="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
                     <div className="flex h-full justify-center items-center">
                         <span className="font-bold text-amber-500">Experiences</span>
                     </div>
