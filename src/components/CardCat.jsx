@@ -3,7 +3,7 @@
 const CardCat = () => {
     return (
         <div>
-            <h2 className="flex justify-center text-4xl py-10">Categories</h2>
+            <h2 className="flex flex-wrap justify-center text-4xl py-10">Categories</h2>
             <div className="flex gap-8 flex-wrap justify-center bg-gray-300 h-screen py-10">
                 
                 <div
