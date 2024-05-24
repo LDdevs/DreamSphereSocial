@@ -12,6 +12,7 @@ export default {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
+        'repeatType' : 'loop'
       },
       keyframes: {
         'infinite-scroll': {
