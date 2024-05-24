@@ -21,7 +21,7 @@ const CardCat = () => {
                 </div>
 
                 <div
-                    className="transform flex-wrap rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
+                    className="transform flex-wrap rounded-xl h-40 w-40 sm:h-64 sm:w-40 bg-white shadow-xl transition duration-300 hover:scale-105">
                     <div className="flex h-full justify-center items-center">
                         <span className="font-bold text-amber-500">Experiences</span>
                     </div>
