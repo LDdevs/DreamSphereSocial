@@ -2,7 +2,7 @@
 
 const CardCat = () => {
     return (
-        <div>
+        <div className="bg-slate-600">
             
             <div className="flex gap-8 flex-wrap justify-center bg-gray-300 h-screen py-10">
                 <h2 className="flex flex-wrap justify-center text-4xl py-10">Categories</h2>
