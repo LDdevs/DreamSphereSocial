@@ -9,10 +9,19 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/assets/mountain-bg.png')"
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }
     },
-  },
-  plugins: [
-    ['postcss-nested'], {}
-  ],
-}
+    plugins: [
+      ['postcss-nested'], {}
+    ],
+  }
 }
