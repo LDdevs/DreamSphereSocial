@@ -6,7 +6,7 @@ import Logo_white_alt from '../assets/logo-alt.png';
 
 const Footer = () => {
     return (
-        <div className='w-screen h-[400px] bg-[rgb(2, 0, 36)])]  '>
+        <div className='w-full h-[400px] bg-[rgb(2, 0, 36)])]  '>
             <div className=' bg-[rgb(2,0,36);]  h-[500px]'>
 
 
