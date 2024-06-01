@@ -28,7 +28,7 @@ const Marquee = () => {
                         <p className="w-auto m-4 p-4">See the Northern Lights</p>
                     </li>
                     <li>
-                        <p className="w-auto m-4p-4">Thanksgiving Day Parade in NYC</p>
+                        <p className="w-auto m-4 p-4">Thanksgiving Day Parade in NYC</p>
                     </li>
                 </ul>
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
