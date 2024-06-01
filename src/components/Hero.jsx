@@ -4,7 +4,7 @@ import Logo from '../assets/Dreamspherelogo.png';
 
 const Hero = () => {
     return (
-        <div id='hero' className="mx-[auto] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-[url('/assets/boat.png')] text-[rgb(2,0,36);] bg-fixed">
+        <div id='hero' className="border-solid border-2 border-red-600 mx-[auto] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-[url('/assets/boat.png')] text-[rgb(2,0,36);] bg-fixed">
             <div className='h-[100%] '>
 
                 
