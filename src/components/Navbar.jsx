@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
 
-        <div className=' w-full h-[100px]  items-center p-[20px]  text-gray-300 z-1000'>
+        <div className='border-solid border-2 border-red-600 w-full h-[100px]  items-center p-[20px]  text-gray-300 z-1000'>
 
 
             {/* <!-- Toggle button --> */}
