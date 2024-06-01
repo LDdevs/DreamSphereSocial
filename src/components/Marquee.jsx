@@ -4,7 +4,7 @@
 const Marquee = () => {
     return (
         <div>
-            <div className='w-[100%] flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] border-solid border-2 border-red-600'>
+            <div className='w-[100%] flex flex-nowrap overflow-hidden  border-solid border-2 border-red-600'>
                 <ul className='flex items-center justify-center md:justify-start [&_li]:mx-8  animate-infinite-scroll  '>
                     <li>
                         <p>Go bungee jumping</p>
