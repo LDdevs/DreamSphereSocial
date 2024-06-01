@@ -7,28 +7,28 @@ const Marquee = () => {
             <div className='w-[100%] flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]'>
                 <ul className='flex items-center justify-center md:justify-start [&_li]:mx-8  animate-infinite-scroll  '>
                     <li>
-                        <p>Go bungee jumping</p>
+                        <p className="w-auto">Go bungee jumping</p>
                     </li>
                     <li>
-                        <p>Road trip across Canada</p>
+                        <p className="w-auto">Road trip across Canada</p>
                     </li>
                     <li>
-                        <p>Try street food in Mexico</p>
+                        <p className="w-auto">Try street food in Mexico</p>
                     </li>
                     <li>
-                        <p>Seven Wonders of the World</p>
+                        <p className="w-auto">Seven Wonders of the World</p>
                     </li>
                     <li>
-                        <p>Drink beer at Oktoberfest</p>
+                        <p className="w-auto">Drink beer at Oktoberfest</p>
                     </li>
                     <li>
-                        <p>Take a multi-day railroad trip</p>
+                        <p className="w-auto">Take a multi-day railroad trip</p>
                     </li>
                     <li>
-                        <p>See the Northern Lights</p>
+                        <p className="w-auto">See the Northern Lights</p>
                     </li>
                     <li>
-                        <p>Thanksgiving Day Parade in NYC</p>
+                        <p className="w-auto">Thanksgiving Day Parade in NYC</p>
                     </li>
                 </ul>
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
