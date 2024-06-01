@@ -4,8 +4,8 @@
 
 const CardCat = () => {
     return (
-        <div className='text-green-300 bg-[#020024]'>
-            <h2 className='flex flex-wrap justify-center text-4xl py-1 my-[10px] bg-[#020024]'>Categories</h2>
+        <div className='text-green-300 bg-[#020024] my-[10px]'>
+            <h2 className='flex flex-wrap justify-center text-4xl py-1  bg-[#020024]'>Categories</h2>
             <div className='flex gap-8 flex-wrap justify-center  h-full py-10 bg-[#020024]'>
                 
                 <div
