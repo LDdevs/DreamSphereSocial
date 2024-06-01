@@ -10,25 +10,25 @@ const Marquee = () => {
                         <p>Go bungee jumping</p>
                     </li>
                     <li>
-                        <p>Road trip across Canada on the Alaskan Highway</p>
+                        <p>Road trip across Canada</p>
                     </li>
                     <li>
-                        <p>Try the street food in Mexico</p>
+                        <p>Try street food in Mexico</p>
                     </li>
                     <li>
-                        <p>Visit one of the Seven Wonders of the World</p>
+                        <p>Seven Wonders of the World</p>
                     </li>
                     <li>
                         <p>Drink beer at Oktoberfest</p>
                     </li>
                     <li>
-                        <p>Take a multi-day railroad trip in a sleeper car</p>
+                        <p>Take a multi-day railroad trip</p>
                     </li>
                     <li>
                         <p>See the Northern Lights</p>
                     </li>
                     <li>
-                        <p>See the Thanksgiving Day Parade in New York City</p>
+                        <p>Thanksgiving Day Parade in NYC</p>
                     </li>
                 </ul>
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
@@ -39,10 +39,10 @@ const Marquee = () => {
                         <p>Eat shark in Iceland</p>
                     </li>
                     <li>
-                        <p>Visit New Orleans during Mardi Gras</p>
+                        <p>Mardi Gras</p>
                     </li>
                     <li>
-                        <p>Hike to Machu Picchu in Peru</p>
+                        <p>Hike Machu Picchu</p>
                     </li>
                     <li>
                         <p>Go horseback riding</p>
@@ -62,10 +62,10 @@ const Marquee = () => {
                         <p>Try kayaking down rapids</p>
                     </li>
                     <li>
-                        <p>Ride a gondola in Venice, Italy</p>
+                        <p>Ride a gondola</p>
                     </li>
                     <li>
-                        <p>Go snorkeling or scuba diving at the Great Barrier Reef</p>
+                        <p>Scuba diving at the Great Barrier Reef</p>
                     </li>
                     <li>
                         <p>See elephants in Thailand</p>
