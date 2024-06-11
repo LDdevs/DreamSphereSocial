@@ -12,7 +12,7 @@ export default {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
-        'repeatType' : 'loop'
+        'repeatType': 'loop'
       },
       keyframes: {
         'infinite-scroll': {
@@ -20,6 +20,10 @@ export default {
           to: { transform: 'translateX(-100%)' },
         }
       }
+    },
+    animation: {
+      marquee: 'arquee 25s linear infinite',
+      marquee2: 'arquee2 25s linear infinite',
     },
     plugins: [
       ['postcss-nested'], {}
