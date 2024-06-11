@@ -9,7 +9,7 @@ const FAQ = () => {
                     <h4 className="text-4xl font-bold text-[rgb(2,0,36);] tracking-widest uppercase text-center">FAQ</h4>
                     <p className="text-center text-gray-600 text-sm mt-2">Here are some of the frequently asked questions</p>
                     <div className="space-y-12 px-2 xl:px-16 mt-12">
-                        
+
 
                         <div className="mt-4 flex">
                             <div>
@@ -86,6 +86,17 @@ const FAQ = () => {
                 </div>
             </div>
 
+            <div>
+                <div className="relative flex flex-nowrap overflow-x-hidden ">
+                    <div className="py-12 animate-marquee whitespace-nowrap">
+                        <span className="mx-4 text-4xl">Marquee Item 1</span>
+                        <span className="mx-4 text-4xl">Marquee Item 2</span>
+                        <span className="mx-4 text-4xl">Marquee Item 3</span>
+                        <span className="mx-4 text-4xl">Marquee Item 4</span>
+                        <span className="mx-4 text-4xl">Marquee Item 5</span>
+                    </div>
+                </div>
+            </div>
 
         </div >
     )
