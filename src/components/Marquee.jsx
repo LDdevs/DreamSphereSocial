@@ -5,7 +5,7 @@ const Marquee = () => {
     return (
         <div>
 
-            <div className="relative flex overflow-x-hidden animate-infinite-scroll">
+            <div className="relative flex overflow-x-hidden ">
                 <div className="py-12 animate-marquee whitespace-nowrap">
                     <span className="mx-4 text-4xl">Marquee Item 1</span>
                     <span className="mx-4 text-4xl">Marquee Item 2</span>
