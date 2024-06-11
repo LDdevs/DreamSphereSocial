@@ -22,8 +22,8 @@ export default {
       }
     },
     animation: {
-      marquee: 'arquee 25s linear infinite',
-      marquee2: 'arquee2 25s linear infinite',
+      marquee: 'marquee 25s linear infinite',
+      marquee2: 'marquee2 25s linear infinite',
     },
     plugins: [
       ['postcss-nested'], {}
