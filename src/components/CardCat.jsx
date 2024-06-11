@@ -1,7 +1,7 @@
 // import React from 'react'
 // import Boat from '../assets/boat.png'
 
-import me from '../assets/boat.png';
+// import me from '../assets/boat.png';
 import travel from '../assets/travelcard.png';
 import skills from '../assets/skillscard.png';
 import exp from '../assets/expcard.png';
@@ -12,7 +12,7 @@ import life from '../assets/lifecard.png';
 
 const CardCat = () => {
     return (
-        <div className='text-green-300 bg-[#020024] my-[10px] border-solid'>
+        <div className='text-white bg-[#020024] my-[10px] border-solid'>
             <h2 className='flex flex-wrap justify-center text-4xl py-1  bg-[#020024]'>Categories</h2>
             <div  className='flex gap-8 flex-wrap justify-center  h-full py-10 bg-[#020024]'>
 
