@@ -1,6 +1,8 @@
 // import React from 'react'
 // import Boat from '../assets/boat.png'
 
+import me from '../assets/lisapretty.png';
+
 
 const CardCat = () => {
     return (
@@ -9,8 +11,8 @@ const CardCat = () => {
             <div  className='flex gap-8 flex-wrap justify-center  h-full py-10 bg-[#020024]'>
 
                 <div
-                    id="travelcard"
-                    className=' ' >
+                    id="travelcard" src={me}
+                    className=' p-1 m-1 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
                     <div  className='flex h-full justify-center items-center ' >
                         <span className='font-bold text-gray-500'>Travel</span>
                     </div>
