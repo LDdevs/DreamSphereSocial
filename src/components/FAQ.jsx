@@ -87,7 +87,7 @@ const FAQ = () => {
             </div>
 
             <div>
-                <div className="py-20 relative flex flex-nowrap overflow-x-hidden ">
+                <div className="py-[auto] relative flex flex-nowrap overflow-x-hidden ">
                     <div className="py-12 animate-marquee whitespace-nowrap">
                         <span className="mx-4 text-4xl">Marquee Item 1</span>
                         <span className="mx-4 text-4xl">Marquee Item 2</span>
