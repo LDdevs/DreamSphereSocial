@@ -33,7 +33,7 @@ const Marquee = () => {
                 </div>
             </div>
 
-            {/* <div  className='w-[100%] flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]'>
+            <div  className='w-[100%] flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]'>
                 <ul className='flex items-center justify-center md:justify-start [&_li]:mx-8  animate-infinite-scroll  '>
                     <li>
                         <p className="w-auto m-auto p-0">Go bungee jumping</p>
@@ -112,7 +112,7 @@ const Marquee = () => {
                         <p className="w-auto m-auto p-0">Become debt-free</p>
                     </li>
                 </ul>
-            </div> */}
+            </div>
         </div>
     )
 }
