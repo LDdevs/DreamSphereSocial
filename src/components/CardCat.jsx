@@ -5,7 +5,7 @@ import me from '../assets/boat.png';
 import travel from '../assets/travelcard.png';
 import skills from '../assets/skillscard.png';
 import exp from '../assets/expcard.png';
-import career from '../assets/career.png';
+import career from '../assets/career1.png';
 import fears from '../assets/fears.png';
 import life from '../assets/lifecard.png';
 
