@@ -1,7 +1,7 @@
 // import React from 'react'
 // import Boat from '../assets/boat.png'
 
-import me from '../assets/lisapretty.png';
+import me from '../assets/boat.png';
 
 
 const CardCat = () => {
