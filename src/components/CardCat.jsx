@@ -25,31 +25,31 @@ const CardCat = () => {
 
                 <div
                     id="travelcard"
-                    className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
+                    className='flex justify-center align-middle p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
                     <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={skills} alt="" />
                     <div className="centered">Skills/Hobbies</div>
                 </div>
                 <div
                     id="travelcard"
-                    className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
+                    className='flex justify-center align-middle p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
                     <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={exp} alt="" />
                     <div className="centered">Experiences</div>
                 </div>
                 <div
                     id="travelcard"
-                    className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
+                    className='flex justify-center align-middle p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
                     <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={career} alt="" />
                     <div className="centered">Career Goals</div>
                 </div>
                 <div
                     id="travelcard"
-                    className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
+                    className='flex justify-center align-middle p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
                     <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={fears} alt="" />
                     <div className="centered">Fears</div>
                 </div>
                 <div
                     id="travelcard"
-                    className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
+                    className='flex justify-center align-middle p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
                     <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={life} alt="" />
                     <div className="centered">Life Goals</div>
                 </div>
