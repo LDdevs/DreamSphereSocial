@@ -19,7 +19,7 @@ const CardCat = () => {
                 <div
                     id="travelcard"
                     className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
-                    <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={travel} alt="Travel" />
+                    <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={travel} alt="" />
                     <div className="centered">Travel</div>
                 </div>
 
@@ -38,7 +38,7 @@ const CardCat = () => {
                 <div
                     id="travelcard"
                     className=' p-1 m-10 transform  rounded-xl h-40 w-60 sm:h-64 sm:w-64  shadow-xl transition duration-300 hover:scale-105' >
-                    <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={career} alt="" />
+                    <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={life} alt="" />
                     <div className="centered">Career Goals</div>
                 </div>
                 <div
