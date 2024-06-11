@@ -7,6 +7,15 @@ const Hero = () => {
         <div id='hero' className="b mx-[auto] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-[url('/assets/boat.png')] text-[rgb(2,0,36);] bg-fixed">
             <div className='h-[100%] '>
 
+            <div className="relative flex flex-nowrap overflow-x-hidden ">
+                <div className="py-12 animate-marquee whitespace-nowrap">
+                    <span className="mx-4 text-4xl">Marquee Item 1</span>
+                    <span className="mx-4 text-4xl">Marquee Item 2</span>
+                    <span className="mx-4 text-4xl">Marquee Item 3</span>
+                    <span className="mx-4 text-4xl">Marquee Item 4</span>
+                    <span className="mx-4 text-4xl">Marquee Item 5</span>
+                </div>
+            </div>
                 
                 <div id="hero-header" className="my-[50%]">
                     <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo} alt="" />
