@@ -48,6 +48,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 36px;
-  text-shadow: blueviolet;
-  font-weight: 100;
+  background-color: antiquewhite;
+  
 }
