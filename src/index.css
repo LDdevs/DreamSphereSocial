@@ -32,5 +32,8 @@
 }
 
 .travelcard {
-  background-image: url("mountain-bg.png");;
+  background-image: url("mountain-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
