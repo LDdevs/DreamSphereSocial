@@ -23,11 +23,6 @@ const Footer = () => {
                         {/* <Link id='Link' className='py-[1px]  text-center text-lg text-white inline-block mx-[120px] my-[0px]' to='/Login'>Login</Link>
                     <Link id='Link' className='py-[1px]  text-center text-lg text-white inline-block mx-[120px] w-[20px] my-[10px]' to='/Sign up'>Sign Up</Link> */}
                     </div>
-                    <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo_white_alt} alt="" />
-                    <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>DREAMSPHERE</h1>
-                    {/* <p className='text-white px-2 md:shrink-0 mx-[auto]'>The Brand New Bucket List Social Platform </p> */}
-                    {/* <button onClick='/Login' className="mx-[auto] bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button>
-                    <button className=" mx-6 my-4 bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button> */}
 
                     <div>
                         <div className="text-white py-[auto] relative flex flex-nowrap overflow-x-hidden ">
@@ -40,6 +35,13 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo_white_alt} alt="" />
+                    <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>DREAMSPHERE</h1>
+                    {/* <p className='text-white px-2 md:shrink-0 mx-[auto]'>The Brand New Bucket List Social Platform </p> */}
+                    {/* <button onClick='/Login' className="mx-[auto] bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button>
+                    <button className=" mx-6 my-4 bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button> */}
+
+                    
 
                     <div className='p-4 flex text-center text-lg text-white py-[auto] mx-[120px] my-[20px]'>
                         <p>© 2024 Lisa Downie, All rights reserved.</p>
