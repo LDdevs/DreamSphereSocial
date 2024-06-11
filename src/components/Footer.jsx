@@ -14,17 +14,7 @@ const Footer = () => {
 
                     <div className='w-full inline-grid grid-cols-10 gap-[120px] text-white px-[50%] justify-center content-evenly align-middle py-[40px] h-[280px]'>
 
-                        <div>
-                            <div className="text-white py-[auto] relative flex flex-nowrap overflow-x-hidden ">
-                                <div className="py-[auto] animate-marquee whitespace-nowrap">
-                                    <span className="mx-4 text-4xl">Login/Signup</span>
-                                    <span className="mx-4 text-4xl">Add Bucket List Items</span>
-                                    <span className="mx-4 text-4xl">Explore Others lists</span>
-                                    <span className="mx-4 text-4xl">Share Experiences</span>
-                                    <span className="mx-4 text-4xl">Complete your bucket List IRL</span>
-                                </div>
-                            </div>
-                        </div>
+
 
                         {/* <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] hover:text-blue-700' to='/'>Home</Link>
                     <Link id='Link' className='px-[200px] py-[1px] space-between text-center text-lg text-l text-white inline-block mx-[120px] ' to='/Featured'>Featured</Link>
@@ -39,7 +29,17 @@ const Footer = () => {
                     {/* <button onClick='/Login' className="mx-[auto] bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button>
                     <button className=" mx-6 my-4 bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button> */}
 
-
+                    <div>
+                        <div className="text-white py-[auto] relative flex flex-nowrap overflow-x-hidden ">
+                            <div className="py-[auto] animate-marquee whitespace-nowrap">
+                                <span className="mx-4 text-4xl">Login/Signup</span>
+                                <span className="mx-4 text-4xl">Add Bucket List Items</span>
+                                <span className="mx-4 text-4xl">Explore Others lists</span>
+                                <span className="mx-4 text-4xl">Share Experiences</span>
+                                <span className="mx-4 text-4xl">Complete your bucket List IRL</span>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='p-4 flex text-center text-lg text-white py-[auto] mx-[120px] my-[20px]'>
                         <p>© 2024 Lisa Downie, All rights reserved.</p>
