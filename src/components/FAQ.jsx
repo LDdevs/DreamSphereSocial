@@ -89,11 +89,11 @@ const FAQ = () => {
             <div>
                 <div className="py-[auto] relative flex flex-nowrap overflow-x-hidden ">
                     <div className="py-[auto] animate-marquee whitespace-nowrap">
-                        <span className="mx-4 text-4xl">Login/Signup</span>
-                        <span className="mx-4 text-4xl">Add Bucket List Items</span>
-                        <span className="mx-4 text-4xl">Explore Others lists</span>
-                        <span className="mx-4 text-4xl">Share Experiences</span>
-                        <span className="mx-4 text-4xl">Complete your bucket List IRL</span>
+                        <span className="divide-y divide-dashed mx-4 text-4xl">Login/Signup</span>
+                        <span className="divide-y divide-dashed mx-4 text-4xl">Add Bucket List Items</span>
+                        <span className="divide-y divide-dashed mx-4 text-4xl">Explore Others lists</span>
+                        <span className="divide-y divide-dashed mx-4 text-4xl">Share Experiences</span>
+                        <span className="divide-y divide-dashed mx-4 text-4xl">Complete your bucket List IRL</span>
                     </div>
                 </div>
             </div>
