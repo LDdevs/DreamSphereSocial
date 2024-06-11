@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <div className="text-white py-[auto] relative flex flex-nowrap overflow-x-hidden ">
+                        <div className="text-white  relative flex flex-nowrap overflow-x-hidden ">
                             <div className="py-[auto] animate-marquee whitespace-nowrap">
                                 <span className="mx-4 text-4xl">Login/Signup</span>
                                 <span className="mx-4 text-4xl">Add Bucket List Items</span>
