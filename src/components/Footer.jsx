@@ -25,13 +25,13 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <div className="divide-x divide-dashed divide-blue-200 text-white  relative flex flex-nowrap overflow-x-hidden ">
+                        <div className=" text-white  relative flex flex-nowrap overflow-x-hidden ">
                             <div className=" py-[auto] animate-marquee whitespace-nowrap">
-                                <span className="mx-4 text-4xl">Login/Signup</span>
-                                <span className="mx-4 text-4xl">Add Bucket List Items</span>
-                                <span className="mx-4 text-4xl">Explore Others lists</span>
-                                <span className="mx-4 text-4xl">Share Experiences</span>
-                                <span className="mx-4 text-4xl">Complete your bucket List IRL</span>
+                                <span className="mx-4 text-4xl">1. Login/Signup</span>
+                                <span className="mx-4 text-4xl">2. Add Bucket List Items</span>
+                                <span className="mx-4 text-4xl">3. Explore Others lists</span>
+                                <span className="mx-4 text-4xl">4. Share Experiences</span>
+                                <span className="mx-4 text-4xl">5. Complete your bucket List IRL</span>
                             </div>
                         </div>
                     </div>
