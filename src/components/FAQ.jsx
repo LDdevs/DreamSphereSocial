@@ -80,23 +80,23 @@ const FAQ = () => {
                             </div>
                         </div>
 
-
+                        <div>
+                            <div className="py-[auto] relative flex flex-nowrap overflow-x-hidden ">
+                                <div className="py-[auto] animate-marquee whitespace-nowrap">
+                                    <span className="mx-4 text-4xl">Marquee Item 1</span>
+                                    <span className="mx-4 text-4xl">Marquee Item 2</span>
+                                    <span className="mx-4 text-4xl">Marquee Item 3</span>
+                                    <span className="mx-4 text-4xl">Marquee Item 4</span>
+                                    <span className="mx-4 text-4xl">Marquee Item 5</span>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
 
-            <div>
-                <div className="py-[auto] relative flex flex-nowrap overflow-x-hidden ">
-                    <div className="py-[auto] animate-marquee whitespace-nowrap">
-                        <span className="mx-4 text-4xl">Marquee Item 1</span>
-                        <span className="mx-4 text-4xl">Marquee Item 2</span>
-                        <span className="mx-4 text-4xl">Marquee Item 3</span>
-                        <span className="mx-4 text-4xl">Marquee Item 4</span>
-                        <span className="mx-4 text-4xl">Marquee Item 5</span>
-                    </div>
-                </div>
-            </div>
+
 
         </div >
     )
