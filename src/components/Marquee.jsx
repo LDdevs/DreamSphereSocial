@@ -6,7 +6,7 @@ const Marquee = () => {
         <div>
 
             <div className="relative flex overflow-x-hidden animate-infinite-scroll">
-                <div className="py-12 animate-marquee whitespace-nowrap">
+                <div className="py-12 animate-marquee ">
                     <span className="mx-4 text-4xl">Marquee Item 1</span>
                     <span className="mx-4 text-4xl">Marquee Item 2</span>
                     <span className="mx-4 text-4xl">Marquee Item 3</span>
@@ -19,7 +19,7 @@ const Marquee = () => {
                     <span className="mx-4 text-4xl">Marquee Item 5</span>
                 </div>
 
-                <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                <div className="absolute top-0 py-12 animate-marquee2 ">
                     <span className="mx-4 text-4xl">Marquee Item 1</span>
                     <span className="mx-4 text-4xl">Marquee Item 2</span>
                     <span className="mx-4 text-4xl">Marquee Item 3</span>
