@@ -23,6 +23,8 @@ import { SlLike } from "react-icons/sl";
 import { SlHeart } from "react-icons/sl";
 import { SlSpeech } from "react-icons/sl";
 
+import travel from '../assets/travelcard.png';
+
 const Featured = () => {
     return (
         <div>
@@ -47,6 +49,7 @@ const Featured = () => {
                 <div>
                     <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
                         <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={travel} alt="" />
                             <p>Bucket Item 1</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
