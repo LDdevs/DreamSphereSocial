@@ -58,7 +58,7 @@ const Navbar = () => {
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
                     {showMenu && (
-                    <div className='bg-[#a5a9ae] lg:hidden text-sm lg:flex-grow mr-10'>
+                    <div className='flex flex-wrap bg-[#a5a9ae] lg:hidden text-sm lg:flex-grow mr-10'>
                         <a
                             href="#responsive-header" to='/'
                             className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
