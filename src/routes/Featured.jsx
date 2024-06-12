@@ -37,7 +37,7 @@ const Featured = () => {
                     <div id="hero-header" className="my-[50%]">
 
                         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Featured</h1>
-                        <img className='' src={Logo} alt="" />
+                        <img className='' src={travel} alt="" />
                         <p className='text-white px-2 md:shrink-0 mx-[auto]'>Browse the latest Bucket list Items! </p>
 
                     </div>
