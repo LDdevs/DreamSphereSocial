@@ -48,11 +48,12 @@ const Contact = () => {
                     </div>
                 </div>
 
-            </div>
+            
 
             
             <CardCat />
             <Footer />
+            </div>
         </div>
     )
 }
