@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import Logo_white_alt from '../assets/logo-alt.png';
 // import BG from '../assets/footerbg.png';
 // import { Link } from 'react-router-dom';
@@ -27,11 +27,11 @@ const Footer = () => {
                     <div>
                         <div className=" text-white  relative flex flex-nowrap overflow-x-hidden ">
                             <div className=" py-[auto] animate-marquee whitespace-nowrap">
-                                <span className="mx-4 text-4xl">1. Login/Signup</span>
-                                <span className="mx-4 text-4xl">2. Add Bucket List Items</span>
-                                <span className="mx-4 text-4xl">3. Explore Others lists</span>
-                                <span className="mx-4 text-4xl">4. Share Experiences</span>
-                                <span className="mx-4 text-4xl">5. Complete your bucket List IRL</span>
+                                <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/'>Home</Link>
+                                <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/Featured'>Featured</Link>
+                                <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/dashboard'>Dashboard</Link>
+                                <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
+
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                     {/* <button onClick='/Login' className="mx-[auto] bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Login</button>
                     <button className=" mx-6 my-4 bg-[rgb(2,0,36);] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button> */}
 
-                    
+
 
                     <div className='p-4 flex text-center text-lg text-white py-[auto] mx-[120px] my-[20px]'>
                         <p>© 2024 Lisa Downie, All rights reserved.</p>
