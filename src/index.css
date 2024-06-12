@@ -31,13 +31,13 @@
   opacity: 100%;
 }
 
-/* .travelcard {
+#travelcard {
   background-image: url("mountain-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   
-} */
+}
 
 /* Centered text */
 .centered {
