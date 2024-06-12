@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { Link } from 'react-router-dom';
 // import { SlLogin } from "react-icons/sl";
-import Logo from '../assets/2.png';
+import Logo from '../assets/Dreamspherelogo.png';
 import CardCat from '../components/CardCat';
 // import Logo_white from '../assets/dslogo-white.png';
 // import Logo_white_alt from '../assets/logo-alt.png';
