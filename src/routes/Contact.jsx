@@ -31,7 +31,7 @@ const Contact = () => {
 
 
                         <div name='contact' className='w-[auto] h-[auto] flex justify-center items-center p-4'>
-                            <form method='POST' action="https://getform.io/f/868c2a09-1ae3-4ca2-b376-8e6fae0f74ac" className='flex flex-col max-w-[1000px] w-full'>
+                            <form method='POST' action="https://getform.io/f/868c2a09-1ae3-4ca2-b376-8e6fae0f74ac" className='flex flex-col max-w-[1000px] w-[600px]'>
                                 <div className='pb-8'>
                                     <p className='text-4xl font-bold inline border-b-4 border-[rgb(134,239,172);] text-white'>Contact</p>
                                     <p className='text-white py-4 '>Submit the form below!</p>
