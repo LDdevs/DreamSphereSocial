@@ -54,19 +54,19 @@ const Navbar = () => {
 
                 {/* Hamburger */}
                 
-                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='xl:hidden flex justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
+                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='mx-[auto] xl:hidden flex justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
                     {showMenu && (
-                    <div className='lg:hidden text-sm lg:flex-grow mr-10'>
+                    <div className='bg-[#a5a9ae] lg:hidden text-sm lg:flex-grow mr-10'>
                         <a
-                            href="#responsive-header"
+                            href="#responsive-header" to='/'
                             className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Home
                         </a>
                         <a
-                            href="#responsive-header"
+                            href="#responsive-header" to='/Featured'
                             className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Featured
@@ -78,13 +78,13 @@ const Navbar = () => {
                             Dashboard
                         </a> */}
                         <a
-                            href="#responsive-header"
+                            href="#responsive-header" to='/contact'
                             className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Contact
                         </a>
                         <a
-                            href="#responsive-header"
+                            href="#responsive-header" to='/Login'
                             className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
                         >
                             Login/Signup
