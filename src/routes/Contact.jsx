@@ -49,7 +49,7 @@ const Contact = () => {
 
             </div>
 
-
+            <h1>White Space</h1>
             <Footer />
         </div>
     )
