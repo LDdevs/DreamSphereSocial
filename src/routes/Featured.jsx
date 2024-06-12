@@ -43,7 +43,7 @@ const Featured = () => {
             </div>
             <CardCat />
             {/* CARDS */}
-
+            <h3>Featured</h3>
             <div className="flex grid-col-4 grid-flow-col flex-wrap gap-4">
                 <div>
                     <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
@@ -139,7 +139,197 @@ const Featured = () => {
 
             </div>
 
+            <h3>Popular</h3>
+            <div className="flex grid-col-4 grid-flow-col flex-wrap gap-4">
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 1</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 2</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 3</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 4</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 5</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 6</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <h3>New</h3>
+            <div className="flex grid-col-4 grid-flow-col flex-wrap gap-4">
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 1</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 2</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 3</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 4</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 5</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
+                        <div  id='travelcard' className="h-[auto] w-full rounded-[40px] flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
+                            <p>Bucket Item 6</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
 
 
             <Footer />
