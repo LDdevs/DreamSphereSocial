@@ -30,7 +30,7 @@ const Navbar = () => {
 
 
             {/* <!-- Toggle button --> */}
-            <div className='text-white flex justify-center h-full mx-[160px]'>
+            <div className='text-black flex justify-center h-full mx-[160px]'>
                 <div className="hidden md:flex cursor-pointer">
                     <div>
                         <img src={Logo} alt="Logo Image" className='w-[145px]' />
@@ -63,7 +63,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Menu */}
-                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-black flex flex-col justify-center items-center cursor-pointer'}>
+                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-white flex flex-col justify-center items-center cursor-pointer'}>
                     <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="/" smooth={true} duration={500} >
                         Home
                     </Link></li></li>
