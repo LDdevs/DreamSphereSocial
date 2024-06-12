@@ -53,7 +53,7 @@ const Featured = () => {
                         <div  id='travelcard' className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
                         
                             <p>Bucket Item 1</p>
-                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one lalalalalalalallaalalalalalalalalalallalaalalalalalalalal</p>
+                            <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
