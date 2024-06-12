@@ -44,7 +44,7 @@ const Footer = () => {
 
 
                     <div className='p-4 flex text-center text-lg text-white py-[auto] mx-[120px] my-[20px]'>
-                        <p>© 2024 Lisa Downie, All rights reserved.</p>
+                        <p>© 2024 DreamSphere, All rights reserved.</p>
                     </div>
 
 
