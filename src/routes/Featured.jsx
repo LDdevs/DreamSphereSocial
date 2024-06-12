@@ -11,6 +11,7 @@ import Navbar from '../components/Navbar';
 // import { SlLogin } from "react-icons/sl";
 import Logo from '../assets/2.png';
 import Marquee from '../components/Marquee';
+import CardCat from '../components/CardCat';
 // import Logo_white from '../assets/dslogo-white.png';
 // import Logo_white_alt from '../assets/logo-alt.png';
 // import Search_b from '../assets/search-b.png';
@@ -36,7 +37,7 @@ const Featured = () => {
                 </div>
 
             </div>
-            
+            <CardCat />
             {/* CARDS */}
             <div className="grid grid-flow-row auto-rows-max">
                 <div>01</div>
