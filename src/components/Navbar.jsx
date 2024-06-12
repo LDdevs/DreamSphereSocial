@@ -54,11 +54,11 @@ const Navbar = () => {
 
                 {/* Hamburger */}
                 
-                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='mx-[auto] xl:hidden flex flex-wrap justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
+                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='my-[auto] xl:hidden flex flex-wrap justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
                     {showMenu && (
-                    <div className='flex flex-wrap bg-[#a5a9ae] lg:hidden text-sm lg:flex-grow mr-10'>
+                    <div className='flex flex-wrap bg-[#a5a9ae] lg:hidden text-sm lg:flex-grow '>
                         <a
                             href="#responsive-header" to='/'
                             className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
