@@ -43,7 +43,7 @@ const Featured = () => {
             </div>
             <CardCat />
             {/* CARDS */}
-            <h1 className='md:shrink-0 m-4 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Featured</h1>
+            <h1 className='md:shrink-0 my-4 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Featured</h1>
             <div className="flex grid-col-4 grid-flow-col flex-wrap gap-4">
                 <div>
                     <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
@@ -139,7 +139,7 @@ const Featured = () => {
 
             </div>
 
-            <h1 className='md:shrink-0 m-4 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Popular</h1>
+            <h1 className='md:shrink-0 my-4 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Popular</h1>
             <div className="flex grid-col-4 grid-flow-col flex-wrap gap-4">
                 <div>
                     <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
@@ -235,7 +235,7 @@ const Featured = () => {
 
             </div>
 
-            <h1 className='md:shrink-0 m-4 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>New</h1>
+            <h1 className='md:shrink-0 my-4 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>New</h1>
             <div className="flex grid-col-4 grid-flow-col flex-wrap gap-4">
                 <div>
                     <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
