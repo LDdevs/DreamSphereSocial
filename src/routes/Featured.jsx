@@ -43,7 +43,7 @@ const Featured = () => {
             </div>
             <CardCat />
             {/* CARDS */}
-            <div className="grid grid-rows-4 grid-flow-col gap-4">
+            <div className="grid grid-col-4 grid-flow-col gap-4">
                 <div>
                     <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
                         <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
