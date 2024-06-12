@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-router-dom';
 const FAQ = () => {
     return (
         <div>
@@ -86,17 +86,17 @@ const FAQ = () => {
                 </div>
             </div>
 
-            {/* <div>
+            <div>
                 <div className="py-[auto] relative flex flex-nowrap overflow-x-hidden ">
                     <div className="py-[auto] animate-marquee whitespace-nowrap">
-                        <span className="mx-4 text-4xl">Login/Signup</span>
-                        <span className="mx-4 text-4xl">Add Bucket List Items</span>
-                        <span className="mx-4 text-4xl">Explore Others lists</span>
-                        <span className="mx-4 text-4xl">Share Experiences</span>
-                        <span className="mx-4 text-4xl">Complete your bucket List IRL</span>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/'>Home</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/Featured'>Featured</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/dashboard'>Dashboard</Link>
+                    <Link id='Link' className='block lg:inline-block hover:text-[rgb(2,0,36);] mt-4   p-4 text-right text-lg text-black flex-1 mx-[10px] my-[10px]' to='/contact'>Contact</Link>
+                    
                     </div>
                 </div>
-            </div> */}
+            </div>
 
         </div >
     )
