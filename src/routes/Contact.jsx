@@ -47,8 +47,6 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* CARDS */}
-
             </div>
 
 
