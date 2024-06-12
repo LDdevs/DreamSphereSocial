@@ -35,9 +35,8 @@ const Featured = () => {
 
 
                     <div id="hero-header" className="my-[50%]">
-
+                        <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo} alt="" />
                         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Featured</h1>
-                        <img className='' src={travel} alt="" />
                         <p className='text-white px-2 md:shrink-0 mx-[auto]'>Browse the latest Bucket list Items! </p>
 
                     </div>
@@ -50,7 +49,7 @@ const Featured = () => {
                 <div>
                     <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
                         <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
-                            <img className='rounded-full max-w-[300px] hover:scale-120 hover:rotate-6' src={travel} alt="" />
+                        <img className='' src={travel} alt="" />
                             <p>Bucket Item 1</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
