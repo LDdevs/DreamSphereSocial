@@ -54,7 +54,7 @@ const Navbar = () => {
 
                 {/* Hamburger */}
                 
-                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='my-[50px] xl:hidden flex flex-wrap justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
+                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='mt-[50px] xl:hidden flex flex-wrap justify-center p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
                     {showMenu && (
