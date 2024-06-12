@@ -50,7 +50,7 @@ const Featured = () => {
                 <div>
                     <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-500">
                         
-                        <div  id='travelcard' className="h-48 w-full  flex flex-col justify-between p-4 bg-cover bg-center">
+                        <div  id='travelcard' className="h-[auto] w-full  flex flex-col justify-between p-4 bg-cover bg-center">
                         <img  className='' src={travel} alt="" />
                             <p>Bucket Item 1</p>
                             <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
