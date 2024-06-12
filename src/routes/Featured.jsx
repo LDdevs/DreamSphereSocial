@@ -45,11 +45,13 @@ const Featured = () => {
             </div>
             <CardCat />
             {/* CARDS */}
+
             <div className="grid grid-col-4 grid-flow-col gap-4">
                 <div>
                     <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
-                        <div src={travel} id='travelcard' className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
-                        {/* <img  className=''  alt="" /> */}
+                        <img  className='' src={travel} alt="" />
+                        <div  id='travelcard' className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
+                        
                             <p>Bucket Item 1</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
