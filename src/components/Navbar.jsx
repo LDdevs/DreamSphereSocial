@@ -17,9 +17,12 @@ import Search_b from '../assets/search-b.png';
 
 const Navbar = () => {
 
-    const [nav] = useState(false)
-    // const handleClick = () => setNav(!nav)
-    const [showMenu, setShowMenu] = useState(false)
+    // const [nav] = useState(false)
+    // // const handleClick = () => setNav(!nav)
+    // const [showMenu, setShowMenu] = useState(false)
+
+    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
 
     return (
 
@@ -53,45 +56,36 @@ const Navbar = () => {
 
 
                 {/* Hamburger */}
-                
-                <div onClick={() => setShowMenu (showMenu => !showMenu)} className='mt-[50px] xl:hidden flex flex-wrap justify-end p-[20px] bg-[#a5a9ae] hover:text-[rgb(2,0,36);] z-10 rounded-full'>
+
+                {/* Hamburger */}
+                <div onClick={handleClick} className='md:hidden z-10'>
                     {!nav ? <FaBars /> : <FaTimes />}
                 </div>
-                    {showMenu && (
-                    <div className='flex flex-wrap justify-center align-middle bg-[#a5a9ae] lg:hidden text-sm lg:flex-grow '>
-                        <a
-                            href="#responsive-header" to='/'
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
-                        >
-                            Home
-                        </a>
-                        <a
-                            href="#responsive-header" to='/Featured'
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
-                        >
-                            Featured
-                        </a>
-                        {/* <a
-                            href="#responsive-header"
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
-                        >
-                            Dashboard
-                        </a> */}
-                        <a
-                            href="#responsive-header" to='/contact'
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
-                        >
-                            Contact
-                        </a>
-                        <a
-                            href="#responsive-header" to='/Login'
-                            className="block mt-4 lg:inline-block lg:mt-10 text-teal-200 hover:text-white mr-4 sm:mr-8"
-                        >
-                            Login/Signup
-                        </a>
-                    </div>)}
-                           
-                    
+
+                {/* Mobile Menu */}
+                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center cursor-pointer'}>
+                    <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="home" smooth={true} duration={500} >
+                        Home
+                    </Link></li></li>
+                    <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="about" smooth={true} duration={500} >
+                        About
+                    </Link></li></li>
+                    <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="skills" smooth={true} duration={500} >
+                        Skills
+                    </Link></li></li>
+                    <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="work" smooth={true} duration={500} >
+                        Work
+                    </Link></li></li>
+                    <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="services" smooth={true} duration={500} >
+                        Services
+                    </Link></li></li>
+                    <li className='py-6 text-4xl'><li><Link onClick={handleClick} to="contact" smooth={true} duration={500} >
+                        Contact
+                    </Link></li></li>
+                </ul>
+
+                
+
             </div>
         </div>
 
