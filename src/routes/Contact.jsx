@@ -21,8 +21,8 @@ const Contact = () => {
         <div>
             <Navbar />
 
-            <div id='hero' className="mx-[auto] h-[screen] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-[url('/assets/boat.png')] text-[rgb(2,0,36);] bg-fixed">
-                <div className='h-[screen] '>
+            <div id='hero' className="mx-[auto] h-full w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-[url('/assets/boat.png')] text-[rgb(2,0,36);] bg-fixed">
+                <div className='h-full '>
 
 
                     <div id="hero-header" className="my-[50%]">
