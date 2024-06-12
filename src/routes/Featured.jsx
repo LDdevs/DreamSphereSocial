@@ -83,6 +83,45 @@ const Featured = () => {
 
                     </div>
                 </div>
+                <div>
+                    <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
+                        <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
+                            <p>Bucket Item 4</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
+                        <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
+                            <p>Bucket Item 5</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
+                        <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
+                            <p>Bucket Item 6</p>
+                            <div className="w-auto h-auto  rounded flex items-center justify-center ">
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
 
