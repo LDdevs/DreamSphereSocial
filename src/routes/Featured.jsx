@@ -50,7 +50,7 @@ const Featured = () => {
                             <p>Bucket Item 1</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Featured = () => {
                             <p>Bucket Item 2</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const Featured = () => {
                             <p>Bucket Item 3</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const Featured = () => {
                             <p>Bucket Item 4</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ const Featured = () => {
                             <p>Bucket Item 5</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ const Featured = () => {
                             <p>Bucket Item 6</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-700'><SlHeart /></button>
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-[rgb(134,239,172);]'><SlSpeech /></button>
                             </div>
                         </div>
