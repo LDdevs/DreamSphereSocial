@@ -48,7 +48,7 @@ const Featured = () => {
 
             <div className="grid grid-col-4 grid-flow-col gap-4">
                 <div>
-                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-500">
+                    <div className="w-80 shadow rounded border border-transparent hover:border-blue-500 cursor-pointer bg-gray-200">
                         
                         <div  id='travelcard' className="h-[auto] w-full  flex flex-col justify-between p-4 bg-cover bg-center">
                         <img  className='' src={travel} alt="" />
