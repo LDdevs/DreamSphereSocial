@@ -20,6 +20,8 @@ import CardCat from '../components/CardCat';
 // import { SlLogin } from "react-icons/sl";
 
 import { SlLike } from "react-icons/sl";
+import { SlHeart } from "react-icons/sl";
+import { SlSpeech } from "react-icons/sl";
 
 const Featured = () => {
     return (
@@ -48,8 +50,8 @@ const Featured = () => {
                             <p>Bucket Item 1</p>
                             <div className="w-8 h-9 bg-white rounded flex items-center justify-center text-red-500">
                                 <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>Add to bucket list <SlLike /></button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>Heart </button>
-                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>See discussion </button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>Heart <SlHeart /></button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>See discussion <SlSpeech /></button>
                             </div>
                         </div>
 
