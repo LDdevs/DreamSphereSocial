@@ -24,6 +24,9 @@ const Contact = () => {
 <div className='h-[100%] '>
 
     
+    
+
+    </div>
     <div id="hero-header" className="my-[50%]">
         <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo} alt="" />
         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Contact Us</h1>
@@ -41,8 +44,6 @@ const Contact = () => {
             <button className='text-white border-2 hover:bg-[#ff66c4] hover:border-[#ff66c4] px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate!</button>
         </form>
 
-
-    </div>
 
     </div>
 </div>
