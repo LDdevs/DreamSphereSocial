@@ -39,7 +39,7 @@ const Featured = () => {
             </div>
             <CardCat />
             {/* CARDS */}
-            <div className="grid grid-flow-row auto-rows-max">
+            <div className="grid grid-flow-row ">
                 <div>
                     <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
                         <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
