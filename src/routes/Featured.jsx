@@ -49,9 +49,9 @@ const Featured = () => {
             <div className="grid grid-col-4 grid-flow-col gap-4">
                 <div>
                     <div className="w-80 bg-white shadow rounded border border-transparent hover:border-blue-500 cursor-pointer">
-                        <img  className='' src={travel} alt="" />
-                        <div  id='travelcard' className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
                         
+                        <div  id='travelcard' className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
+                        <img  className='' src={travel} alt="" />
                             <p>Bucket Item 1</p>
                             <p className='flex items-center justify-center w-[auto] p-auto'>info about this one</p>
                             <div className="w-auto h-auto  rounded flex items-center justify-center ">
