@@ -45,9 +45,9 @@ const Featured = () => {
                         <div className="h-48 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center">
                             <p>Bucket Item 1</p>
                             <div className="w-8 h-9 bg-white rounded flex items-center justify-center text-red-500">
-                                <button className='w-8 h-9 p-4 m-4 bg-white rounded flex items-center justify-center text-red-500'>Add to bucket list</button>
-                                <button className='w-8 h-9 p-4 m-4 bg-white rounded flex items-center justify-center text-red-500'>Heart</button>
-                                <button className='w-8 h-9 p-4 m-4 bg-white rounded flex items-center justify-center text-red-500'>See discussion</button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>Add to bucket list</button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>Heart</button>
+                                <button className='w-8 h-9 p-[auto] m-4 bg-white rounded flex items-center justify-center text-red-500'>See discussion</button>
                             </div>
                         </div>
 
