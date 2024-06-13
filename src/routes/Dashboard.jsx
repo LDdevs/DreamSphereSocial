@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { Link } from 'react-router-dom';
 // import { SlLogin } from "react-icons/sl";
-import Logo from '../assets/2.png';
+// import Logo from '../assets/2.png';
 import Avatar from '../assets/avatar.png';
 // import Logo_white from '../assets/dslogo-white.png';
 // import Logo_white_alt from '../assets/logo-alt.png';
@@ -29,7 +29,7 @@ const Dashboard = () => {
 
 <div>
     <h1 className='text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-flow-row auto-rows-max'>My Dashboard</h1>
-    <div className='bg-white rounded-[30px]'>
+    <div className='bg-white rounded-[30px] w-2'>
     <img src={[Avatar]} alt="" />
     </div>
 </div>
