@@ -43,7 +43,11 @@ const Login = () => {
                     </div>
                 </div>
 
-                <div className='h-[100%] '>
+                
+
+            </div>
+
+            <div className='h-[100%] '>
 
 
                     <div id="hero-header" className="my-[50%]">
@@ -63,9 +67,6 @@ const Login = () => {
 
                     </div>
                 </div>
-
-            </div>
-
 
             <Footer />
         </div>
