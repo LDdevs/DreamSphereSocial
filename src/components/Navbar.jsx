@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 // import { SlLogin } from "react-icons/sl";
-import Logo from '../assets/2.png';
+import Logo from '../assets/Dreamspherelogo.png';
 // import Logo_white from '../assets/dslogo-white.png';
 // import Logo_white_alt from '../assets/logo-alt.png';
 import Search_b from '../assets/search-b.png';
