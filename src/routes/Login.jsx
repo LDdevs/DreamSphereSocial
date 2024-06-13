@@ -43,13 +43,11 @@ const Login = () => {
                     </div>
                 </div>
                 
-                <div className='h-[100%] '>
+                <div>
 
 
                     <div id="hero-header" className="my-[50%]">
-                        
-                        
-
+                      
                     <div className='bg-white w-[auto] h-[auto] rounded-[40px]'>
                         <p className='text-[rgb(134,239,172);] px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
                         <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
