@@ -34,9 +34,9 @@ const Dashboard = () => {
                 </div>
                 <div className='bg-slate-400  w-[180px] flex flex-wrap m-[60px] p-[40px] text-white'>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
-                    <h3 className='flex  p-2 m-2'>Your Name</h3>
-                    <h4 className='flex  p-2 m-2'>Location</h4>
-                    <h5 className='flex  p-2 m-2'>Active Today</h5>
+                    <h3 className='flex  p-4 m-2'>Your Name</h3>
+                    <h4 className='flex  p-4 m-2'>Location</h4>
+                    <h5 className='flex  p-4 m-2'>Active Today</h5>
                 </div>
 
 
