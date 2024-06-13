@@ -32,7 +32,7 @@ const Dashboard = () => {
 
                 </div>
             </div>
-            <div className='grid grid-cols-1 gap-2 w-[auto]'>
+            <div className='grid grid-cols-2 gap-2 w-[auto]'>
                 <div className='bg-slate-300  w-[480px]  ml-[40px] p-[20px] text-white '>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
                     <h3 className='flex  p-4 m-4'>[Your Name]</h3>
