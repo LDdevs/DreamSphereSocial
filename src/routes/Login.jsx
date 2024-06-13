@@ -21,7 +21,7 @@ const Login = () => {
         <div>
             <Navbar />
 
-            <div id='hero' className="mx-[auto] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] bg-fixed">
+            <div id='hero' className="mx-[auto] w-full z-1 flex justify-center items-center text-center px-[80px] py-[7px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] ">
                 <div className='h-[100%] '>
 
 
