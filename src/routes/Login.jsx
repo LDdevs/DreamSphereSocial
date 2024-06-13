@@ -35,7 +35,7 @@ const Login = () => {
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="email" placeholder='Email' name='email' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='Password' name='password' />
                                 <button className='flex w-[auto]'>Forgotten Password?</button>
-                                <button className='bg-transparent hover:bg-[rgb(134,239,172);] text-white font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Login</button>
+                                <button className='bg-transparent hover:bg-[rgb(134,239,172);] text-white font-semibold hover:text-white py-2 px-4 border border-[rgb(134,239,172);] hover:border-transparent rounded'>Login</button>
                             </form>
                         </div>
 
@@ -50,7 +50,7 @@ const Login = () => {
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="email" placeholder='Email' name='email' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='New Password' name='password' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='Confirm Password' name='password' />
-                                <div className="inline-block relative w-64">
+                                <div className="inline-block relative w-64 my-4">
                                     <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                                         <option>Really long option that will likely overlap the chevron</option>
                                         <option>Option 2</option>
@@ -60,7 +60,7 @@ const Login = () => {
                                         <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
                                     </div>
                                 </div>
-                                <button className='bg-transparent hover:bg-[rgb(134,239,172);] text-white font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Sign Up</button>
+                                <button className='bg-transparent hover:bg-[rgb(134,239,172);] text-white font-semibold hover:text-white py-2 px-4 border border-[rgb(134,239,172);] hover:border-transparent rounded'>Sign Up</button>
                             </form>
                         </div>
 
