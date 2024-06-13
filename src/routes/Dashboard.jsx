@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 // import { Link } from 'react-router-dom';
 // import { SlLogin } from "react-icons/sl";
 // import Logo from '../assets/2.png';
-import Avatar from '../assets/avatar.png';
+import Avatar from '../assets/avatar2.png';
 // import Logo_white from '../assets/dslogo-white.png';
 // import Logo_white_alt from '../assets/logo-alt.png';
 // import Search_b from '../assets/search-b.png';
