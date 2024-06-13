@@ -39,7 +39,7 @@ const Dashboard = () => {
                     <h4 className='flex  p-4 m-4'>[Location]</h4>
                     <h5 className='flex  p-4 m-4'>[Active Today]</h5>
                 </div>
-                <div className='bg-slate-300  w-[280px] flex mx-[60px] my-[20px] p-[40px] text-white'>
+                <div className='bg-slate-300  w-[280px] flex mx-[auto] my-[20px] p-[40px] text-white'>
                     <h1>Edit Dashboard</h1>
                 </div>
 
