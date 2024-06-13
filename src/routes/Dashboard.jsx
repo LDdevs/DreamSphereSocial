@@ -41,11 +41,11 @@ const Dashboard = () => {
                 </div>
 
 
-                <div className='bg-slate-300  w-[1280px] flex flex-wrap mx-[60px] px-[240px] py-[1200] text-white'>
+                <div className='bg-slate-300 h-[1200px]  w-[1280px] flex flex-wrap mx-[60px] px-[240px] py-[200px] text-white'>
                     <h1>My Bucket List</h1>
                 </div>
 
-                <div className='bg-slate-300  w-[1280px] flex flex-wrap mx-[60px] justify-center px-[240px] py-[1200] text-white'>
+                <div className='bg-slate-300 h-[1200px] w-[1280px] flex flex-wrap mx-[60px] justify-center px-[240px] py-[200px] text-white'>
                     <h1>Friends</h1>
                 </div>
                 </div>
