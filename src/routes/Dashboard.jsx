@@ -47,9 +47,9 @@ const Dashboard = () => {
                 <div className='bg-slate-300  w-[280px] flex mx-[60px] my-[20px] p-[40px] text-white'>
                     <h1>Edit Dashboard</h1>
                 </div>
-                <div className='bg-slate-300 h-[800px] w-[800px] flex flex-wrap my-[60px] mx-[20px] justify-center px-[240px] py-[200px] text-white'>
+                {/* <div className='bg-slate-300 h-[800px] w-[800px] flex flex-wrap my-[60px] mx-[20px] justify-center px-[240px] py-[200px] text-white'>
                     <h1>Friends</h1>
-                </div>
+                </div> */}
             </div>
 
 
