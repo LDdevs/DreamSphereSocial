@@ -25,7 +25,7 @@ const Login = () => {
                 <div className='h-[100%] '>
 
 
-                    <div id="hero-header" className='my-[50%]'>
+                    <div id="hero-header" className='my-[auto]'>
                         <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo} alt="" />
                         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Login</h1>
 
