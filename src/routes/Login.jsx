@@ -30,6 +30,10 @@ const Login = () => {
                         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Login</h1>
                         <p className='text-white px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
 
+                    <div>
+                        <p>hello</p>
+                    </div>
+
                     </div>
                 </div>
 
