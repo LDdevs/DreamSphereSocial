@@ -27,7 +27,7 @@ const Dashboard = () => {
 <div className='h-[screen] '>
 
 <div>
-    <h1>My Dashboard</h1>
+    <h1 className='text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-flow-row auto-rows-max'>My Dashboard</h1>
     <img src={[Logo]} alt="" />
 </div>
     
