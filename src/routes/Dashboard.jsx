@@ -40,11 +40,11 @@ const Dashboard = () => {
                 </div>
 
 
-                <div className='bg-slate-300  w-[280px] flex flex-wrap my-[60px] p-[40px] text-white'>
+                <div className='bg-slate-300  w-[280px] flex flex-wrap m-[60px] p-[40px] text-white'>
                     <h1>Edit Dashboard</h1>
                 </div>
 
-                <div className='bg-slate-300  w-[280px] flex flex-wrap my-[60px] p-[40px] text-white'>
+                <div className='bg-slate-300  w-[280px] flex flex-wrap m-[60px] justify-center p-[40px] text-white'>
                     <h1>Send a Message</h1>
                 </div>
                 {/* CARDS */}
