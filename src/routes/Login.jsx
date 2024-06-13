@@ -22,13 +22,13 @@ const Login = () => {
             <Navbar />
 
             <div id='loginhero' className="mx-[auto] w-screen z-1 flex flex-wrap justify-center items-center text-center px-[80px] py-[70px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] ">
-                <div className='h-[full] grid grid-cols-2 gap-4'>
+                <div className='h-[full] '>
 
 
                     <div id="hero-header" className='my-[auto]'>
                         <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo} alt="" />
 
-                        <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex flex-row text-4xl sm:text-7xl font-bold py-[7px]'>Login</h1>
+                        <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex flex-row text-4xl sm:text-7xl font-bold py-[7px] grid grid-cols-2 gap-4'>Login</h1>
                         <div className='bg-[#ccd6f67e] w-[auto] h-[auto] shadow-md rounded py-[7px]'>
                             <p className='text-[rgb(134,239,172);] px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
                             <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
@@ -41,7 +41,7 @@ const Login = () => {
 
 
 
-                        <h1 id="title" className=' text-white md:shrink-0 px-6 mx-[auto] flex flex-row text-4xl sm:text-7xl font-bold py-[7px]'>Sign Up</h1>
+                        <h1 id="title" className=' text-white md:shrink-0 px-6 mx-[auto] flex flex-row text-4xl sm:text-7xl font-bold py-[7px] grid grid-cols-2 gap-4'>Sign Up</h1>
                         <div className=' bg-[#ccd6f67e] w-[auto] h-[auto] shadow-md rounded py-[7px]'>
                             <p className='text-[rgb(134,239,172);] px-2 py-[7px] md:shrink-0 mx-[auto]'>Log in below! </p>
                             <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
