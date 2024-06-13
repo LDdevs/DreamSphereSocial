@@ -44,7 +44,7 @@ const Dashboard = () => {
                     <h1>cards</h1>
                 </div>
 
-                <div className='bg-slate-400  w-[280px] flex flex-wrap  p-[40px] text-white'>
+                <div className='bg-slate-400  w-[280px] flex flex-wrap m-[360px] p-[40px] text-white'>
                     <h1>cards</h1>
                 </div>
                 {/* CARDS */}
