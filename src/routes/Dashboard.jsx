@@ -28,7 +28,9 @@ const Dashboard = () => {
 
 <div>
     <h1 className='text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-flow-row auto-rows-max'>My Dashboard</h1>
+    <div className='bg-white rounded-[30px]'>
     <img src={[Logo]} alt="" />
+    </div>
 </div>
     
 </div>
