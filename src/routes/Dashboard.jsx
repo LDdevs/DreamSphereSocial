@@ -24,7 +24,7 @@ const Dashboard = () => {
         <div>
             <Navbar />
 
-            <div id='dashboardhero' className="mx-[auto] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] bg-fixed">
+            <div id='dashboardhero' className="mx-[auto] w-full z-1 flex justify-center bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] bg-fixed">
                 <div className='h-[full] '>
                 </div>
                 <div id='profilepic' className=''>
@@ -32,7 +32,7 @@ const Dashboard = () => {
 
                 </div> 
                 </div>
-                <div className='bg-slate-300  w-[280px] flex flex-wrap m-[60px] p-[40px] text-white'>
+                <div className='bg-slate-300  w-[280px]  m-[60px] p-[40px] text-white grid'>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
                     <h3 className='flex  p-4 m-4'>[Your Name]</h3>
                     <h4 className='flex  p-4 m-4'>[Location]</h4>
