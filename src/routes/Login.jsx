@@ -34,7 +34,7 @@ const Login = () => {
                         <p>hello</p>
                         <form action="#" className='flex flex-col max-w-[1000px] w-[600px]'>
                         <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
-                        <input type="password" placeholder='Password' name='password'/>
+                        <input className='my-4 p-2 bg-[#ccd6f6]' type="password" placeholder='Password' name='password'/>
                         <button className='flex w-[auto]'>Forgotten Password?</button>
                         <button className='flex w-[auto]'>Login</button>
                         </form>
