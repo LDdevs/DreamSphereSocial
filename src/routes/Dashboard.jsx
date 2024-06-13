@@ -32,7 +32,7 @@ const Dashboard = () => {
 
                 </div>
             </div>
-            <div className='grid grid-cols-2 gap-2'>
+            <div className='grid grid-cols-4 gap-4'>
                 <div className='bg-slate-300  w-[280px]  mx-[60px] p-[40px] text-white '>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
                     <h3 className='flex  p-4 m-4'>[Your Name]</h3>
@@ -44,15 +44,15 @@ const Dashboard = () => {
                 <div className='bg-slate-300 h-[800px]  w-[800px] flex flex-wrap my-[60px] mx-[20px] px-[240px] py-[200px] text-white'>
                     <h1>My Bucket List</h1>
                 </div>
-
+                <div className='bg-slate-300  w-[280px] flex mx-[60px] my-[20px] p-[40px] text-white'>
+                    <h1>Edit Dashboard</h1>
+                </div>
                 <div className='bg-slate-300 h-[800px] w-[800px] flex flex-wrap my-[60px] mx-[20px] justify-center px-[240px] py-[200px] text-white'>
                     <h1>Friends</h1>
                 </div>
             </div>
 
-            <div className='bg-slate-300  w-[280px] flex mx-[60px] my-[20px] p-[40px] text-white'>
-                <h1>Edit Dashboard</h1>
-            </div>
+
             {/* CARDS */}
 
 
