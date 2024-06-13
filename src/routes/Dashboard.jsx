@@ -32,8 +32,11 @@ const Dashboard = () => {
 
                 </div> 
                 </div>
-                <div className='bg-white  w-[180px] flex flex-wrap m-[40px]'>
+                <div className='bg-white  w-[180px] flex flex-wrap m-[60px]'>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
+                    <h3>Your Name</h3>
+                    <h4>Location</h4>
+                    <h5>Active Today</h5>
                 </div>
 
 
