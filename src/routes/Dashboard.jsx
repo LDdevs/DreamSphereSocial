@@ -41,14 +41,14 @@ const Dashboard = () => {
                 </div>
 
 
-                <div className='col-span-2 bg-slate-300 h-[800px]  w-[1000px] flex flex-wrap my-[60px] mr-[1000px] px-[240px] py-[400px] text-white'>
+                <div className='col-span-2 bg-slate-300 h-[800px]  w-[2000px] flex flex-wrap my-[60px] mr-[1000px] px-[240px] py-[400px] text-white'>
                     <h1>My Bucket List</h1>
                 </div>
 
                 
             </div>
 
-            <div className='bg-slate-300 w-[480px] mt-[10px]  ml-[40px] p-[20px] text-white'>
+            <div className='bg-slate-300 w-[480px] h-[50px] mt-[10px]  ml-[40px] p-[20px] text-white'>
                 <h1>Edit Dashboard</h1>
             </div>
             {/* <div className='bg-slate-300 h-[800px] w-[1800px] flex flex-wrap my-[60px] mx-[100px] justify-center px-[440px] py-[200px] text-white'>
