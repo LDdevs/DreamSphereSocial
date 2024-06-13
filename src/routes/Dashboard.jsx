@@ -30,6 +30,7 @@ const Dashboard = () => {
                 <div id='profilepic' className=''>
                     <h1 className='text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-flow-row auto-rows-max'>My Dashboard</h1>
 
+                </div> 
                 </div>
                 <div className='bg-white  w-[80px]'>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
@@ -40,7 +41,7 @@ const Dashboard = () => {
 
 
 
-            </div>
+            
             <Footer />
         </div>
     )
