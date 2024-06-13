@@ -40,7 +40,7 @@ const Login = () => {
                         </form>
                     </div>
 
-                    </div>
+                    
 
                     <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Sign Up</h1>
                     <div className='bg-white w-[auto] h-[auto] rounded-[40px]'>
@@ -51,7 +51,7 @@ const Login = () => {
                         <button className='flex w-[auto]'>Forgotten Password?</button>
                         <button className='flex w-[auto] my-4 p-2 bg-[rgb(134,239,172);]'>Login</button>
                         </form>
-                    </div>
+                    </div></div>
                 </div>
                 
                 
