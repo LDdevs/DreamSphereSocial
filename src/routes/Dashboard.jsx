@@ -32,8 +32,8 @@ const Dashboard = () => {
 
                 </div>
             </div>
-            <div className='grid grid-cols-2 gap-2 w-[auto]'>
-                <div className='bg-slate-300  w-[480px] mt-[10px]  ml-[40px] p-[20px] text-white '>
+            <div className='grid grid-cols-3 gap-4 w-[auto]'>
+                <div className='col-span-1 bg-slate-300  w-[480px] mt-[10px]  ml-[40px] p-[20px] text-white '>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
                     <h3 className='flex  p-4 m-4'>[Your Name]</h3>
                     <h4 className='flex  p-4 m-4'>[Location]</h4>
@@ -41,7 +41,7 @@ const Dashboard = () => {
                 </div>
 
 
-                <div className='bg-slate-300 h-[800px]  w-[full] flex flex-wrap my-[60px] mr-[1000px] px-[240px] py-[400px] text-white'>
+                <div className='col-span-2 bg-slate-300 h-[800px]  w-[full] flex flex-wrap my-[60px] mr-[1000px] px-[240px] py-[400px] text-white'>
                     <h1>My Bucket List</h1>
                 </div>
 
