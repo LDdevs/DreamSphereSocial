@@ -30,8 +30,14 @@ const Login = () => {
                         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Login</h1>
                         <p className='text-white px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
 
-                    <div>
+                    <div className='bg-white w-[auto] h-[auto]'>
                         <p>hello</p>
+                        <form action="#" className='flex flex-col max-w-[1000px] w-[600px]'>
+                        <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
+                        <input type="password" placeholder='Password' name='password'/>
+                        <button className='flex w-[auto]'>Forgotten Password?</button>
+                        <button className='flex w-[auto]'>Login</button>
+                        </form>
                     </div>
 
                     </div>
