@@ -22,7 +22,7 @@ const Login = () => {
             <Navbar />
 
             <div id='loginhero' className="mx-[auto] w-screen z-1 flex flex-wrap justify-center items-center text-center px-[80px] py-[70px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] ">
-                <div className='h-[full] grid grid-cols-3 gap-4'>
+                <div className='h-[full] grid grid-cols-2 gap-4'>
 
 
                     <div id="hero-header" className='my-[auto]'>
