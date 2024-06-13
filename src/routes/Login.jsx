@@ -49,7 +49,7 @@ const Login = () => {
                                 <input className='bg-[#ffffff] p-2 py-[7px]' type="text" placeholder='Last Name' name='name' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="email" placeholder='Email' name='email' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='New Password' name='password' />
-                                <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='New Password Again' name='password' />
+                                <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='Confirm Password' name='password' />
                                 
                                 <button className='flex w-[auto] my-4 p-2 bg-[rgb(134,239,172);]'>Sign Up</button>
                             </form>
