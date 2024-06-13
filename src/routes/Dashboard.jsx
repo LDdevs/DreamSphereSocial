@@ -32,7 +32,7 @@ const Dashboard = () => {
 
                 </div> 
                 </div>
-                <div className='bg-white  w-[80px] flex flex-wrap'>
+                <div className='bg-white  w-[80px] flex flex-wrap m-6'>
                     <img src={[Avatar]} alt="" className='rounded-[30px] flex flex-wrap justify-center' />
                 </div>
 
