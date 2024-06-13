@@ -35,7 +35,7 @@ const Login = () => {
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="email" placeholder='Email' name='email' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='Password' name='password' />
                                 <button className='flex w-[auto]'>Forgotten Password?</button>
-                                <button className='flex w-[auto] my-4 p-2 bg-[rgb(134,239,172);]'>Login</button>
+                                <button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Login</button>
                             </form>
                         </div>
 
@@ -51,7 +51,7 @@ const Login = () => {
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='New Password' name='password' />
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="password" placeholder='Confirm Password' name='password' />
                                 
-                                <button className='flex w-[auto] my-4 p-2 bg-[rgb(134,239,172);]'>Sign Up</button>
+                                <button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Sign Up</button>
                             </form>
                         </div>
 
