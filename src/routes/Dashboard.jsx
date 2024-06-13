@@ -38,7 +38,9 @@ const Dashboard = () => {
                     <h4 className='flex  p-4 m-4'>[Location]</h4>
                     <h5 className='flex  p-4 m-4'>[Active Today]</h5>
                 </div>
-
+                <div className='bg-slate-400  w-[280px] flex flex-wrap m-[60px] p-[40px] text-white'>
+                    <h1>cards</h1>
+                </div>
 
                 {/* CARDS */}
 
