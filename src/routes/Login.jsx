@@ -28,8 +28,8 @@ const Login = () => {
                     <div id="hero-header" className='my-[auto]'>
                         <img className='min-w-[280] md:w-[380px] lg:w-[480px] mx-[auto] flex sm:w-auto h-[auto] justify-center align-middle' src={Logo} alt="" />
 
-                        <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-cols-2 gap-4'>Login</h1>
-                        <div className='grid grid-cols-2 gap-4 bg-[#ccd6f67e] w-[auto] h-[auto] shadow-md rounded py-[7px]'>
+                        <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-flow-row auto-rows-max'>Login</h1>
+                        <div className=' bg-[#ccd6f67e] w-[auto] h-[auto] shadow-md rounded py-[7px]'>
                             <p className='text-[rgb(134,239,172);] px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
                             <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
                                 <input className='my-4 p-2 py-[7px] bg-[#ffffff]' type="email" placeholder='Email' name='email' />
@@ -41,8 +41,8 @@ const Login = () => {
 
 
 
-                        <h1 id="title" className=' text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px]'>Sign Up</h1>
-                        <div className='grid grid-cols-2 gap-4 bg-[#ccd6f67e] w-[auto] h-[auto] shadow-md rounded py-[7px]'>
+                        <h1 id="title" className=' text-white md:shrink-0 px-6 mx-[auto]  text-4xl sm:text-7xl font-bold py-[7px] grid grid-flow-row auto-rows-max'>Sign Up</h1>
+                        <div className=' bg-[#ccd6f67e] w-[auto] h-[auto] shadow-md rounded py-[7px]'>
                             <p className='text-[rgb(134,239,172);] px-2 py-[7px] md:shrink-0 mx-[auto]'>Log in below! </p>
                             <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
                                 <input className='my-4 bg-[#ffffff] p-2 py-[7px]' type="text" placeholder='First Name' name='name' />
