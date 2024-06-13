@@ -21,7 +21,7 @@ const Login = () => {
         <div>
             <Navbar />
 
-            <div id='loginhero' className="mx-[auto] w-full z-1 flex flex-wrap justify-center items-center text-center px-[80px] py-[70px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] ">
+            <div id='loginhero' className="mx-[auto] w-full z-1 flex flex-wrap justify-center items-center text-center px-[80px] py-[7px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] ">
                 <div className='h-[100%] '>
 
 
@@ -30,11 +30,11 @@ const Login = () => {
                         <h1 id="title" className='text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Login</h1>
 
 
-                        <div className='bg-[#ccd6f67e] w-[auto] h-[auto] rounded-[40px]'>
+                        <div className='bg-[#ccd6f67e] w-[auto] h-[auto] rounded-[40px] py-[7px]'>
                             <p className='text-[rgb(134,239,172);] px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
                             <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
-                                <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
-                                <input className='my-4 p-2 bg-[#ccd6f6]' type="password" placeholder='Password' name='password' />
+                                <input className='my-4 p-2 bg-[#ffffff]' type="email" placeholder='Email' name='email' />
+                                <input className='my-4 p-2 bg-[#ffffff]' type="password" placeholder='Password' name='password' />
                                 <button className='flex w-[auto]'>Forgotten Password?</button>
                                 <button className='flex w-[auto] my-4 p-2 bg-[rgb(134,239,172);]'>Login</button>
                             </form>
@@ -43,11 +43,12 @@ const Login = () => {
 
 
                         <h1 id="title" className=' text-white md:shrink-0 px-6 mx-[auto] flex text-4xl sm:text-7xl font-bold'>Sign Up</h1>
-                        <div className=' bg-[#ccd6f67e] w-[auto] h-[auto] rounded-[40px]'>
+
+                        <div className=' bg-[#ccd6f67e] w-[auto] h-[auto] rounded-[40px] py-[7px]'>
                             <p className='text-[rgb(134,239,172);] px-2 md:shrink-0 mx-[auto]'>Log in below! </p>
                             <form action="#" className='flex flex-col max-w-[1000px] w-[auto]'>
-                                <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
-                                <input className='my-4 p-2 bg-[#ccd6f6]' type="password" placeholder='Password' name='password' />
+                                <input className='my-4 p-2 bg-[#ffffff]' type="email" placeholder='Email' name='email' />
+                                <input className='my-4 p-2 bg-[#ffffff]' type="password" placeholder='Password' name='password' />
                                 <button className='flex w-[auto]'>Forgotten Password?</button>
                                 <button className='flex w-[auto] my-4 p-2 bg-[rgb(134,239,172);]'>Login</button>
                             </form>
