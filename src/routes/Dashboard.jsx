@@ -39,14 +39,14 @@ const Dashboard = () => {
                     <h4 className='flex  p-4 m-4'>[Location]</h4>
                     <h5 className='flex  p-4 m-4'>[Active Today]</h5>
                 </div>
-
+                <div className='bg-slate-300  w-[280px] flex mx-[60px] my-[20px] p-[40px] text-white'>
+                    <h1>Edit Dashboard</h1>
+                </div>
 
                 <div className='bg-slate-300 h-[800px]  w-[800px] flex flex-wrap my-[60px] mx-[20px] px-[240px] py-[200px] text-white'>
                     <h1>My Bucket List</h1>
                 </div>
-                <div className='bg-slate-300  w-[280px] flex mx-[60px] my-[20px] p-[40px] text-white'>
-                    <h1>Edit Dashboard</h1>
-                </div>
+
                 {/* <div className='bg-slate-300 h-[800px] w-[800px] flex flex-wrap my-[60px] mx-[20px] justify-center px-[240px] py-[200px] text-white'>
                     <h1>Friends</h1>
                 </div> */}
