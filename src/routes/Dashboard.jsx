@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { Link } from 'react-router-dom';
 // import { SlLogin } from "react-icons/sl";
-// import Logo from '../assets/2.png';
+import Logo from '../assets/2.png';
 // import Logo_white from '../assets/dslogo-white.png';
 // import Logo_white_alt from '../assets/logo-alt.png';
 // import Search_b from '../assets/search-b.png';
@@ -26,6 +26,10 @@ const Dashboard = () => {
 <div id='dashboardhero' className="mx-[auto] w-full z-1 flex justify-center  bg-full items-center text-center px-[80px] py-[7px] bg-cover bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-[rgb(2,0,36);] bg-fixed">
 <div className='h-[full] '>
 
+<div>
+    <h1>My Dashboard</h1>
+    <img src={[Logo]} alt="" />
+</div>
     
 </div>
 
