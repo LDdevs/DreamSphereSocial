@@ -41,7 +41,7 @@ const Dashboard = () => {
                 </div>
 
 
-                <div className='col-span-2 bg-slate-300 h-[800px]  w-[1500px] flex flex-wrap mt-[1px] my-[60px] mr-[1000px] px-[240px] py-[400px] text-white'>
+                <div className='col-span-2 bg-slate-300 h-[600px]  w-[1500px] flex flex-wrap mt-[1px] my-[60px] mr-[1000px] px-[240px] py-[400px] text-white'>
                     <h1>My Bucket List</h1>
                 </div>
 
